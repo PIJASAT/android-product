@@ -8,4 +8,20 @@ public class Produk {
         this.harga = harga;
         this.stok = stok;
     }
+
+    public String.getId() {
+        return id;
+    }
+
+    public String.getNama() {
+        return nama;
+    }
+
+    public String.getHarga() {
+        return harga;
+    }
+
+    public String.getStok() {
+        return stok;
+    }
 }

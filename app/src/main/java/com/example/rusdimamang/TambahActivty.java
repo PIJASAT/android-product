@@ -118,7 +118,7 @@ public class TambahActivty extends AppCompatActivity {
 
                     Map<String, String> params = new HashMap<>();
 
-                    params.put("nama_produk", n);
+                    params.put("nama", n);
                     params.put("harga", h);
                     params.put("stok", s);
 

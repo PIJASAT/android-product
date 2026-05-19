@@ -15,6 +15,9 @@
         android:theme="@style/Theme.RusdiMamang"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".item_produk"
+            android:exported="false" />
+        <activity
             android:name=".TambahActivty"
             android:exported="false" />
         <activity

@@ -1,7 +1,9 @@
 package com.example.rusdimamang;
 
 public class Produk {
-    String id,nama,harga,stok;
+
+    String id, nama, harga, stok;
+
     public Produk(String id, String nama, String harga, String stok) {
         this.id = id;
         this.nama = nama;
@@ -9,19 +11,19 @@ public class Produk {
         this.stok = stok;
     }
 
-    public String.getId() {
+    public String getId() {
         return id;
     }
 
-    public String.getNama() {
+    public String getNama() {
         return nama;
     }
 
-    public String.getHarga() {
+    public String getHarga() {
         return harga;
     }
 
-    public String.getStok() {
+    public String getStok() {
         return stok;
     }
 }
